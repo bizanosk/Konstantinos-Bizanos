@@ -1,0 +1,132 @@
+@font-face{
+    font-family: myfont;
+    src:url('fonts/GreatVibes-Regular.ttf')
+}
+
+@font-face{
+    font-family: myfonttext;
+    src:url('fonts/cmu.serif-roman.ttf')
+}
+
+body {
+    background-color: black;
+    font-size: 14pt;
+    color: white;
+    margin: 5%;
+    font-family: myfonttext;
+}
+
+h1, h2, h3, h4{
+    color: aqua;
+    font-family: myfont;
+    letter-spacing: 3pt;
+}
+
+a {
+   color: aqua;
+   text-decoration: none;
+}
+
+a:hover{
+    color: #ffffff;
+}
+
+b {
+    color: aqua;
+}
+
+.sidecontent{
+    display: block;
+    float: left;
+    width: 24%;
+}
+
+.navbarhead {
+    display: block;
+    border: aqua 2px solid;
+    border-radius: 20px 20px 0px 0px;
+    background-color: aqua;
+    color: black;
+    font-weight: bold;
+    letter-spacing: 3pt;
+    font-family: myfont;
+    font-size: 24pt;
+    padding: 2%;
+    text-align: center;
+}
+
+.navbar {
+    display: block;
+    border: aqua 2px solid;
+    background-color: #696565;
+    border-radius: 0px 0px 20px 20px;
+    padding: 1%;
+}
+
+.navbar ul {
+    margin-left:-10%;
+    list-style: none;
+    list-style-position: outside;
+}
+
+.navbar li{
+    margin-bottom: 3%;
+    border-bottom: aqua 1px solid;
+}
+
+.photo {
+    border: aqua 2px solid;
+    border-radius: 20px 20px 20px 20px;
+    background-color: aqua;
+    margin-bottom: 2%;
+    text-align: center;
+}
+
+.photo img {
+    border-radius: 50%;
+}
+
+.content{
+    display: block;
+    background-color: #696565;
+    padding: 1%;
+    border: aqua 2px solid;
+    border-radius: 20px 20px 20px 20px;
+    width: 70%;
+    float: right;
+    box-shadow: 10px 10px aqua;
+    margin-bottom: 2%;
+}
+
+.name {
+    border: aqua 2px solid;
+    border-radius: 20px 20px 20px 20px;
+    background-color: aqua;
+    margin-bottom: 1%;
+    color: black;
+    font-weight: bold;
+    letter-spacing: 3pt;
+    font-family: myfont;
+    font-size: 24pt;
+    padding: 2%;
+}
+
+@media screen and (max-width: 800px) {
+    .sidecontent {
+        width: 100%;
+        margin-bottom: 2%;
+    }
+    
+    .navbar ul {
+        margin-left:-4%;
+    }
+
+    .content {
+        width: 100%;
+        float: left;
+        box-shadow: none;
+        padding: 3%;
+    }
+}
+
+
