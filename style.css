@@ -1,11 +1,11 @@
 @font-face{
     font-family: myfont;
-    src:url('\font/GreatVibes-Regular.ttf')
+    src:url('GreatVibes-Regular.ttf')
 }
 
 @font-face{
     font-family: myfonttext;
-    src:url('font/cmu.serif-roman.ttf')
+    src:url('cmu.serif-roman.ttf')
 }
 
 body {
